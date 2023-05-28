@@ -19,28 +19,34 @@ andy_face_encoding = face_recognition.face_encodings(andy_image)[0]
 joseph_image = face_recognition.load_image_file("joseph_neutral_small.jpg")
 joseph_face_encoding = face_recognition.face_encodings(joseph_image)[0]
 
-# liudan_image = face_recognition.load_image_file("liudan_neutral.jpg")
-# liudan_face_encoding = face_recognition.face_encodings(liudan_image)[0]
+liudan_image = face_recognition.load_image_file("liudan_neutral_small.jpg")
+liudan_face_encoding = face_recognition.face_encodings(liudan_image)[0]
 
-# chuan_image = face_recognition.load_image_file("chuan_neutral.jpg")
-# chuan_face_encoding = face_recognition.face_encodings(chuan_image)[0]
+chuan_image = face_recognition.load_image_file("chuan_neutral_small.jpg")
+chuan_face_encoding = face_recognition.face_encodings(chuan_image)[0]
 
 # Create arrays of known face encodings and their names
 known_face_encodings = [
     andy_face_encoding,
-    joseph_face_encoding
+    joseph_face_encoding,
+    chuan_face_encoding,
+    liudan_face_encoding
 ]
 known_face_names = [
     "Andy Ma",
-    "Joseph Ma"
+    "Joseph Ma",
+    "Chuan Ma",
+    "Liu Dan"
 ]
 
 while True:
+
     # Grab a single frame of video
     ret, frame = video_capture.read()
 
     # flip frame horizontally
     frame = cv2.flip(frame, 1)
+
     # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
     # rgb_frame = frame[:, :, ::-1]
     rgb_frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
