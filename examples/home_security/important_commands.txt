@@ -1,0 +1,4 @@
+npx prettier --write "src/components/UserList.vue" <- an example of how to prettier a file so that there are no stupid prettier errors
+npm run serve <- how to start a vue App
+flask --app home_security_app run <- an example of how to start a flask app
+$env:FLASK_APP = "home_security_app.py" <- how to initiate a flask shell (in command prompt)
