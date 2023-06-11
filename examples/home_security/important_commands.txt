@@ -2,3 +2,16 @@ npx prettier --write "src/components/UserList.vue" <- an example of how to prett
 npm run serve <- how to start a vue App
 flask --app home_security_app run <- an example of how to start a flask app
 $env:FLASK_APP = "home_security_app.py" <- how to initiate a flask shell (in command prompt)
+docker build -t my-postgres . <- how to build a docker container
+docker run -d -p 5432:5432 --name my-postgres-container my-postgres <- how to run one
+
+STUFF FOR DATABASE COMMANDS
+docker exec -it my-postgres-container psql -U postgres <- used to start up the database interaction
+\c andy_database <- to connect to the database
+select * from "user"; <- to open up the table REMEMBER THE EFFING DOUBLE QUOTES OR ELSE IT WILL OPEN SOMETHING ELSE
+
+STUFF FOR GIT COMMANDS
+git status <- status of altered and staged commits
+git add <file> <- stage a file for commit
+git commit --amend <- commit a change, --amend is optional if you want to replace changes as opposed to just creating a new commit
+git push -f <- push the change to github repository (it is safe now), -f is if you want to force the change in case there is a problem otherwise
