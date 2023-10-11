@@ -1,3 +1,10 @@
+Andy's Note to whom it may concern:
+I found this open-sourced face recognition library and decided to try to make my own project with it. I am super bad at time management, so I apologize if this project is not completed at the time of viewing. Once I get through my university terms, I will try my best to improve this project. Super sorry about this, and I'll do my best.
+
+
+
+
+
 # Face Recognition
 
 _You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese 日本語](https://github.com/m-i-k-i/face_recognition/blob/master/README_Japanese.md)._
