@@ -1,5 +1,6 @@
 Andy's Note to whom it may concern:
 I found this open-sourced face recognition library and decided to try to make my own project with it. I am super bad at time management, so I apologize if this project is not completed at the time of viewing. Once I get through my university terms, I will try my best to improve this project. Super sorry about this, and I'll do my best.
+Also, the stuff I edited is in the "examples" folder.
 
 
 
