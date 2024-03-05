@@ -1,5 +1,6 @@
-Andy's Note to whom it may concern:
-I found this open-sourced face recognition library and decided to try to make my own project with it.
+Andy's Note to whom it may concern: <br>
+I found this open-sourced face recognition library and decided to try to make my own project with it. <br>
+The stuff I implemented is in the "examples" folder (I didn't organize it very well). <br>
 Thanks for visiting this repository. Have a good day.
 
 
